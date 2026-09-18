@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parts of Speech</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      text-align: center;
+      color: #4CAF50;
+    }
+    .part {
+      background: #fff;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .part h2 {
+      color: #4CAF50;
+      margin-top: 0;
+    }
+    .quiz {
+      background: #fff;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .quiz h2 {
+      margin-top: 0;
+      color: #FF5722;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .result {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Parts of Speech</h1>
+
+  <div class="part">
+    <h2>1. Nouns</h2>
+    <p>Names of people, places, things, or ideas.  
+    <strong>Examples:</strong> dog, city, book, happiness</p>
+  </div>
+
+  <div class="part">
+    <h2>2. Pronouns</h2>
+    <p>Words used in place of nouns.  
+    <strong>Examples:</strong> he, she, it, they</p>
+  </div>
+
+  <div class="part">
+    <h2>3. Verbs</h2>
+    <p>Words that show action or state of being.  
+    <strong>Examples:</strong> run, eat, is, jump</p>
+  </div>
+
+  <div class="part">
+    <h2>4. Adjectives</h2>
+    <p>Words that describe nouns or pronouns.  
+    <strong>Examples:</strong> red, tall, happy, soft</p>
+  </div>
+
+  <div class="part">
+    <h2>5. Adverbs</h2>
+    <p>Words that describe verbs, adjectives, or other adverbs.  
+    <strong>Examples:</strong> quickly, very, silently</p>
+  </div>
+
+  <div class="part">
+    <h2>6. Prepositions</h2>
+    <p>Words that show relationships between nouns or pronouns and other words.  
+    <strong>Examples:</strong> in, on, under, with</p>
+  </div>
+
+  <div class="part">
+    <h2>7. Conjunctions</h2>
+    <p>Words that join words or groups of words.  
+    <strong>Examples:</strong> and, but, or, because</p>
+  </div>
+
+  <div class="part">
+    <h2>8. Interjections</h2>
+    <p>Words or phrases that express strong emotion.  
+    <strong>Examples:</strong> Wow!, Ouch!, Oh no!</p>
+  </div>
+
+  <!-- Quiz Section -->
+  <div class="quiz">
+    <h2>Quick Quiz: Identify the Part of Speech</h2>
+
+    <p>1. "She runs very fast." — What is "runs"?</p>
+    <select id="q1">
+      <option value="">Select</option>
+      <option value="noun">Noun</option>
+      <option value="verb">Verb</option>
+      <option value="adjective">Adjective</option>
+      <option value="adverb">Adverb</option>
+    </select>
+
+    <p>2. "Wow! That was amazing." — What is "Wow"?</p>
+    <select id="q2">
+      <option value="">Select</option>
+      <option value="noun">Noun</option>
+      <option value="interjection">Interjection</option>
+      <option value="verb">Verb</option>
+      <option value="adjective">Adjective</option>
+    </select>
+
+    <p>3. "The book on the table is mine." — What is "on"?</p>
+    <select id="q3">
+      <option value="">Select</option>
+      <option value="preposition">Preposition</option>
+      <option value="conjunction">Conjunction</option>
+      <option value="verb">Verb</option>
+      <option value="adverb">Adverb</option>
+    </select>
+
+    <br>
+    <button onclick="checkQuiz()">Submit Answers</button>
+    <p class="result" id="result"></p>
+  </div>
+
+  <script>
+    function checkQuiz() {
+      let score = 0;
+      const answers = {
+        q1: "verb",
+        q2: "interjection",
+        q3: "preposition"
+      };
+
+      for (let key in answers) {
+        const selected = document.getElementById(key).value;
+        if (selected === answers[key]) score++;
+      }
+
+      document.getElementById("result").textContent = `You got ${score} out of 3 correct!`;
+    }
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/@arcade-v/arcade_v/navigation/games/loadsite.js"></script>
+</body>
+</html>

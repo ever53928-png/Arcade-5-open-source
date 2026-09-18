@@ -1,0 +1,10 @@
+{
+  "name": "@arcade-v/arcade_v",
+  "version": "1.1.1",
+  "description": "a web-based collection of classic and modern browser games, designed to be easily hosted and customizable.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arcade V",
+  "license": "ISC"
+}

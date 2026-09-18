@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fractions — A Friendly Guide</title>
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#9aa7b9; --accent:#6ee7b7; --accent2:#7dd3fc;
+      --glass: rgba(255,255,255,0.03);
+      --radius:14px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:linear-gradient(180deg,#041022 0%, #071028 60%);
+      color:#e6eef6;
+      padding:28px;
+      line-height:1.5;
+    }
+    .wrap{
+      max-width:980px;
+      margin:0 auto;
+      display:grid;
+      gap:18px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:16px;
+    }
+    .logo{
+      width:64px;
+      height:64px;
+      background:linear-gradient(135deg,var(--accent),var(--accent2));
+      border-radius:12px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#032229;
+      font-weight:700;
+      font-size:20px;
+      box-shadow:0 6px 18px rgba(0,0,0,0.5);
+    }
+    h1{font-size:28px;margin:0}
+    .subtitle{color:var(--muted);font-size:14px}
+    main{
+      display:grid;
+      grid-template-columns: 1fr 360px;
+      gap:18px;
+      align-items:start;
+    }
+    article{
+      background:var(--card);
+      padding:18px;
+      border-radius:var(--radius);
+      box-shadow:0 6px 30px rgba(3,8,18,0.6);
+    }
+    aside{
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      padding:18px;
+      border-radius:12px;
+      min-width:220px;
+      color:var(--muted);
+    }
+    h2{margin:8px 0 12px 0;font-size:20px}
+    p{margin:0 0 12px 0}
+    .example{
+      background:var(--glass);
+      padding:10px;
+      border-radius:10px;
+      color:var(--accent2);
+      font-weight:600;
+      display:inline-block;
+    }
+    .fraction-visual{
+      margin:12px 0;
+    }
+    .controls{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+    }
+    input[type="number"], select, input[type="text"]{
+      padding:8px 10px;
+      border-radius:8px;
+      border:1px solid rgba(255,255,255,0.06);
+      background:transparent;
+      color:inherit;
+      min-width:90px;
+    }
+    button{
+      background:linear-gradient(180deg,var(--accent),var(--accent2));
+      border:none;
+      color:#032229;
+      padding:8px 12px;
+      border-radius:8px;
+      cursor:pointer;
+      font-weight:700;
+    }
+    pre{
+      background:#041423;
+      padding:10px;border-radius:8px;overflow:auto;color:var(--muted)
+    }
+    .result{
+      margin-top:12px;
+      padding:10px;border-radius:8px;
+      background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border:1px dashed rgba(255,255,255,0.03);
+      color:var(--accent);
+      font-weight:700;
+    }
+    .small{font-size:13px;color:var(--muted)}
+    footer{color:var(--muted);font-size:13px;text-align:center;padding:8px 0}
+    /* fraction boxes */
+    .bar{
+      display:flex;
+      gap:4px;
+      margin-top:8px;
+      align-items:center;
+    }
+    .box{
+      flex:1 1 0;
+      height:36px;
+      background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(0,0,0,0.05));
+      border-radius:6px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:var(--muted);
+      font-weight:700;
+      position:relative;
+      border:1px solid rgba(255,255,255,0.02);
+      overflow:hidden;
+    }
+    .box.filled{
+      background:linear-gradient(90deg, rgba(110,231,183,0.12), rgba(125,211,252,0.06));
+      color:#032229;
+    }
+    .fraction-inline{
+      font-weight:800;
+      background:linear-gradient(90deg, rgba(255,255,255,0.03), rgba(0,0,0,0.04));
+      padding:6px 10px;border-radius:8px;margin-left:8px;color:var(--accent2)
+    }
+    .math-row{display:flex;gap:8px;align-items:center;margin-top:6px;flex-wrap:wrap}
+    .hint{font-size:13px;color:var(--muted)}
+    @media (max-width:900px){
+      main{grid-template-columns:1fr; }
+      aside{order:2}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">F⁄</div>
+      <div>
+        <h1>Fractions — a friendly guide</h1>
+        <div class="subtitle">Understand parts of a whole, equivalent fractions, simplifying, and quick tools</div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <h2>What is a fraction?</h2>
+        <p>A <strong>fraction</strong> represents a part of a whole and has two parts: the <em>numerator</em> (top) and the <em>denominator</em> (bottom). Example: <span class="example">3/4</span> means three out of four equal parts.</p>
+
+        <h2>Types of fractions</h2>
+        <p><strong>Proper</strong>: numerator &lt; denominator (e.g., 2/3).<br>
+           <strong>Improper</strong>: numerator ≥ denominator (e.g., 7/4).<br>
+           <strong>Mixed number</strong>: whole number + proper fraction (e.g., 1 3/4).</p>
+
+        <h2>Visualize fractions</h2>
+        <p class="small">Adjust denominator (boxes) and numerator (filled boxes) to see the fraction visually.</p>
+
+        <div class="fraction-visual" aria-hidden="true">
+          <label class="small">Numerator:
+            <input id="vizNum" type="number" value="3" min="0" style="width:72px">
+          </label>
+          <label class="small" style="margin-left:8px">Denominator:
+            <input id="vizDen" type="number" value="5" min="1" style="width:72px">
+          </label>
+          <button id="renderBtn">Render</button>
+
+          <div id="barContainer" class="bar" role="img" aria-label="Fraction visualization"></div>
+          <div style="margin-top:8px">
+            <span class="hint">Fraction: </span><span id="vizText" class="fraction-inline">3 / 5</span>
+            <span class="hint" style="margin-left:12px">Decimal: <span id="vizDecimal" class="fraction-inline">0.6</span></span>
+          </div>
+        </div>
+
+        <hr style="margin:18px 0;border:none;border-top:1px solid rgba(255,255,255,0.03)">
+
+        <h2>Quick tools</h2>
+        <div class="math-row">
+          <div>
+            <div class="small">Simplify a fraction</div>
+            <div class="controls">
+              <input id="simpNum" type="number" placeholder="numerator" value="8" min="0">
+              <input id="simpDen" type="number" placeholder="denominator" value="12" min="1">
+              <button id="simpBtn">Simplify</button>
+            </div>
+            <div id="simpResult" class="result" aria-live="polite" style="display:none"></div>
+          </div>
+
+          <div style="min-width:14px"></div>
+
+          <div>
+            <div class="small">Convert improper ↔ mixed</div>
+            <div class="controls">
+              <input id="impNum" type="number" placeholder="numerator" value="11" min="0">
+              <input id="impDen" type="number" placeholder="denominator" value="4" min="1">
+              <button id="convBtn">Convert</button>
+            </div>
+            <div id="convResult" class="result" aria-live="polite" style="display:none"></div>
+          </div>
+        </div>
+
+        <hr style="margin:18px 0;border:none;border-top:1px solid rgba(255,255,255,0.03)">
+
+        <h2>Fraction calculator</h2>
+        <p class="small">Enter two fractions and choose an operation.</p>
+        <div style="display:grid;gap:8px">
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <label class="small">A:
+              <input id="aNum" type="number" value="1" min="0" style="width:80px"> /
+              <input id="aDen" type="number" value="2" min="1" style="width:80px">
+            </label>
+
+            <label class="small">B:
+              <input id="bNum" type="number" value="2" min="0" style="width:80px"> /
+              <input id="bDen" type="number" value="3" min="1" style="width:80px">
+            </label>
+
+            <select id="op" aria-label="operation">
+              <option value="add">+</option>
+              <option value="sub">−</option>
+              <option value="mul">×</option>
+              <option value="div">÷</option>
+            </select>
+
+            <button id="calcBtn">Calculate</button>
+            <button id="clearBtn" style="background:transparent;color:var(--muted);border:1px solid rgba(255,255,255,0.04)">Clear</button>
+          </div>
+
+          <div id="calcResult" class="result" aria-live="polite" style="display:none"></div>
+        </div>
+
+        <hr style="margin:18px 0;border:none;border-top:1px solid rgba(255,255,255,0.03)">
+
+        <h2>How to simplify (short)</h2>
+        <p>Find the greatest common divisor (GCD) of numerator and denominator, then divide both by it. Example: 8/12 → GCD=4 → 2/3.</p>
+
+        <h2>Tips</h2>
+        <ul class="small" style="color:var(--muted)">
+          <li>To add/subtract, get a common denominator.</li>
+          <li>To multiply, multiply numerators and denominators directly.</li>
+          <li>To divide by a fraction, multiply by its reciprocal (swap numerator/denominator).</li>
+        </ul>
+      </article>
+
+      <aside>
+        <h3 style="margin-top:0">Reference</h3>
+        <p class="small">Useful representations:</p>
+        <pre>Fraction:   a / b
+Mixed:      w a / b  (meaning w + a/b)
+Decimal:    a ÷ b</pre>
+
+        <h3 style="margin-top:8px">Examples</h3>
+        <p class="small">Two-thirds: <span class="example">2/3</span></p>
+        <p class="small">One and a half: <span class="example">1 1/2</span></p>
+
+        <h3 style="margin-top:8px">Keyboard tips</h3>
+        <p class="small">Use arrow keys to change number inputs quickly, or type values directly.</p>
+      </aside>
+    </main>
+
+    <footer>Built for learning — interactive and accessible.</footer>
+  </div>
+
+  <script>
+  
+    // Utility functions
+    function gcd(a, b) {
+      a = Math.abs(Math.trunc(a));
+      b = Math.abs(Math.trunc(b));
+      if (a === 0) return b;
+      if (b === 0) return a;
+      while (b) {
+        let t = a % b;
+        a = b;
+        b = t;
+      }
+      return Math.abs(a);
+    }
+
+    function simplify(n, d) {
+      n = Math.trunc(n); d = Math.trunc(d);
+      if (d === 0) return null;
+      const g = gcd(n, d);
+      n = n / g; d = d / g;
+      // keep sign only in numerator
+      if (d < 0) { n = -n; d = -d; }
+      return {n, d};
+    }
+
+    function toDecimal(n, d) {
+      if (d === 0) return NaN;
+      return Number(n) / Number(d);
+    }
+
+    function improperToMixed(n, d) {
+      n = Math.trunc(n); d = Math.trunc(d);
+      if (d === 0) return null;
+      const whole = Math.trunc(n / d);
+      const rem = Math.abs(n % d);
+      return {whole, num: rem, den: Math.abs(d)};
+    }
+
+    function mixedToImproper(w, n, d) {
+      w = Math.trunc(w); n = Math.trunc(n); d = Math.trunc(d);
+      if (d === 0) return null;
+      const sign = (w < 0) ? -1 : 1;
+      const totalNum = Math.abs(w) * d + Math.abs(n);
+      return {n: sign * totalNum, d: d};
+    }
+
+    function renderBar(n, d, containerEl) {
+      containerEl.innerHTML = '';
+      d = Math.max(1, Math.trunc(d));
+      n = Math.max(0, Math.trunc(n));
+      const maxBoxes = Math.min(20, d); // avoid crazy widths
+      const boxCount = d > 20 ? 20 : d;
+      // If denominator > 20, we instead show a compact text + small mini-bars
+      if (d > 20) {
+        const p = document.createElement('div');
+        p.className = 'small';
+        p.textContent = `${n} / ${d} — visual shows first 20 parts`;
+        containerEl.appendChild(p);
+      }
+      for (let i = 0; i < boxCount; i++) {
+        const box = document.createElement('div');
+        box.className = 'box';
+        // Determine fill based on proportion when d > 20
+        const fillIndex = Math.round((n / d) * boxCount);
+        if (i < fillIndex) box.classList.add('filled');
+        box.textContent = i + 1;
+        containerEl.appendChild(box);
+      }
+    }
+
+    // Visualization handlers
+    const vizNum = document.getElementById('vizNum');
+    const vizDen = document.getElementById('vizDen');
+    const renderBtn = document.getElementById('renderBtn');
+    const barContainer = document.getElementById('barContainer');
+    const vizText = document.getElementById('vizText');
+    const vizDecimal = document.getElementById('vizDecimal');
+
+    function updateViz() {
+      const n = Number(vizNum.value) || 0;
+      const d = Number(vizDen.value) || 1;
+      renderBar(n, d, barContainer);
+      vizText.textContent = `${n} / ${d}`;
+      const dec = toDecimal(n, d);
+      vizDecimal.textContent = isFinite(dec) ? (Math.round(dec*10000)/10000) : 'NaN';
+    }
+    renderBtn.addEventListener('click', updateViz);
+    // initial
+    updateViz();
+
+    // Simplify
+    const simpBtn = document.getElementById('simpBtn');
+    const simpNum = document.getElementById('simpNum');
+    const simpDen = document.getElementById('simpDen');
+    const simpResult = document.getElementById('simpResult');
+
+    simpBtn.addEventListener('click', () => {
+      const n = Number(simpNum.value);
+      const d = Number(simpDen.value);
+      if (!Number.isFinite(n) || !Number.isFinite(d) || d === 0) {
+        simpResult.style.display = 'block';
+        simpResult.textContent = 'Invalid input. Denominator cannot be 0.';
+        return;
+      }
+      const s = simplify(n,d);
+      simpResult.style.display = 'block';
+      if (!s) { simpResult.textContent = 'Error'; return; }
+      // show simplified and mixed if improper
+      const improper = s.n >= s.d || s.n <= -s.d;
+      const mixed = improper ? improperToMixed(s.n, s.d) : null;
+      let txt = `${s.n} / ${s.d}`;
+      if (mixed && mixed.whole !== 0) {
+        txt += `  →  mixed: ${mixed.whole} ${mixed.num}/${mixed.den}`;
+      }
+      txt += `  (decimal ${isFinite(toDecimal(s.n,s.d)) ? Math.round(toDecimal(s.n,s.d)*10000)/10000 : 'NaN'})`;
+      simpResult.textContent = txt;
+    });
+
+    // Convert improper <-> mixed
+    const convBtn = document.getElementById('convBtn');
+    const impNum = document.getElementById('impNum');
+    const impDen = document.getElementById('impDen');
+    const convResult = document.getElementById('convResult');
+
+    convBtn.addEventListener('click', () => {
+      const n = Number(impNum.value);
+      const d = Number(impDen.value);
+      if (!Number.isFinite(n) || !Number.isFinite(d) || d === 0) {
+        convResult.style.display = 'block';
+        convResult.textContent = 'Invalid input.';
+        return;
+      }
+      const mixed = improperToMixed(n,d);
+      convResult.style.display = 'block';
+      convResult.textContent = `${n}/${d} = ${mixed.whole} ${mixed.num}/${mixed.den} (mixed)`;
+    });
+
+    // Calculator
+    const calcBtn = document.getElementById('calcBtn');
+    const clearBtn = document.getElementById('clearBtn');
+    const calcResult = document.getElementById('calcResult');
+
+    function computeFraction(op, aN,aD,bN,bD) {
+      aN = Math.trunc(aN); aD = Math.trunc(aD); bN = Math.trunc(bN); bD = Math.trunc(bD);
+      if (aD === 0 || bD === 0) return null;
+      let rN, rD;
+      switch(op) {
+        case 'add':
+          rN = aN * bD + bN * aD;
+          rD = aD * bD;
+          break;
+        case 'sub':
+          rN = aN * bD - bN * aD;
+          rD = aD * bD;
+          break;
+        case 'mul':
+          rN = aN * bN;
+          rD = aD * bD;
+          break;
+        case 'div':
+          if (bN === 0) return null;
+          rN = aN * bD;
+          rD = aD * bN;
+          break;
+        default:
+          return null;
+      }
+      const s = simplify(rN, rD);
+      return s ? {n:s.n, d:s.d, decimal: toDecimal(s.n, s.d)} : null;
+    }
+
+    calcBtn.addEventListener('click', () => {
+      const aN = Number(document.getElementById('aNum').value);
+      const aD = Number(document.getElementById('aDen').value);
+      const bN = Number(document.getElementById('bNum').value);
+      const bD = Number(document.getElementById('bDen').value);
+      const op = document.getElementById('op').value;
+      const res = computeFraction(op, aN,aD,bN,bD);
+      calcResult.style.display = 'block';
+      if (!res) {
+        calcResult.textContent = 'Invalid operation or input (check denominators and division by zero).';
+      } else {
+        // show improper and mixed if applicable
+        const mixed = improperToMixed(res.n, res.d);
+        let txt = `${res.n} / ${res.d}`;
+        if (mixed.whole !== 0) txt += `  →  mixed: ${mixed.whole} ${mixed.num}/${mixed.den}`;
+        txt += `  (decimal ${Math.round(res.decimal*10000)/10000})`;
+        calcResult.textContent = txt;
+      }
+    });
+
+    clearBtn.addEventListener('click', () => {
+      document.getElementById('aNum').value = 1;
+      document.getElementById('aDen').value = 2;
+      document.getElementById('bNum').value = 2;
+      document.getElementById('bDen').value = 3;
+      document.getElementById('op').value = 'add';
+      calcResult.style.display = 'none';
+    });
+
+    // keyboard enter trigger for viz inputs
+    [vizNum, vizDen].forEach(el=>{
+      el.addEventListener('keydown', (e)=>{
+        if(e.key === 'Enter') updateViz();
+      });
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@arcade-v/arcade_v/navigation/games/loadsite.js"></script>
+</body>
+</html>
+
+

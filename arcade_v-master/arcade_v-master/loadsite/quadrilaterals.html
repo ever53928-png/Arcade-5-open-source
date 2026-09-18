@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quadrilaterals</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f0f8ff;
+        line-height: 1.6;
+    }
+    h1, h2 {
+        color: #2c3e50;
+        text-align: center;
+    }
+    .quadrilaterals {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 30px;
+    }
+    .shape-box {
+        text-align: center;
+        width: 150px;
+    }
+    .shape {
+        margin: 10px auto;
+        display: block;
+        width: 100px;
+        height: 100px;
+        position: relative;
+    }
+
+    /* Square */
+    .square {
+        background-color: #ff6666;
+    }
+
+    /* Rectangle */
+    .rectangle {
+        background-color: #66ccff;
+        width: 120px;
+        height: 80px;
+    }
+
+    /* Parallelogram */
+    .parallelogram {
+        background-color: #ffcc66;
+        width: 120px;
+        height: 80px;
+        transform: skew(20deg);
+    }
+
+    /* Rhombus */
+    .rhombus {
+        background-color: #99cc66;
+        width: 100px;
+        height: 100px;
+        transform: rotate(45deg);
+    }
+
+    /* Trapezoid */
+    .trapezoid {
+        width: 120px;
+        height: 0;
+        border-bottom: 80px solid #cc99ff;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+    }
+
+    /* Kite */
+    .kite {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 80px solid #ff99cc;
+        position: relative;
+    }
+    .kite::after {
+        content: '';
+        position: absolute;
+        top: 40px;
+        left: -50px;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 80px solid #ff99cc;
+    }
+
+    /* Quiz Styles */
+    .quiz {
+        margin-top: 50px;
+        padding: 20px;
+        border: 2px solid #2c3e50;
+        border-radius: 10px;
+        background-color: #ecf0f1;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    button {
+        margin: 5px;
+        padding: 8px 15px;
+        border-radius: 5px;
+        border: none;
+        background-color: #3498db;
+        color: white;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<h1>Quadrilaterals</h1>
+<p style="text-align:center;">A quadrilateral is a polygon with <strong>four sides</strong> and <strong>four angles</strong>. The sum of its interior angles is always <strong>360°</strong>.</p>
+
+<h2>Types of Quadrilaterals</h2>
+<div class="quadrilaterals">
+    <div class="shape-box">
+        <div class="shape square"></div>
+        <p>Square</p>
+    </div>
+    <div class="shape-box">
+        <div class="shape rectangle"></div>
+        <p>Rectangle</p>
+    </div>
+    <div class="shape-box">
+        <div class="shape parallelogram"></div>
+        <p>Parallelogram</p>
+    </div>
+    <div class="shape-box">
+        <div class="shape rhombus"></div>
+        <p>Rhombus</p>
+    </div>
+    <div class="shape-box">
+        <div class="shape trapezoid"></div>
+        <p>Trapezoid</p>
+    </div>
+    <div class="shape-box">
+        <div class="shape kite"></div>
+        <p>Kite</p>
+    </div>
+</div>
+
+<div class="quiz">
+    <h2>Quiz</h2>
+    <p>Which quadrilateral has all sides equal and all angles 90°?</p>
+    <button onclick="checkAnswer('square')">Square</button>
+    <button onclick="checkAnswer('rectangle')">Rectangle</button>
+    <button onclick="checkAnswer('rhombus')">Rhombus</button>
+    <p id="quizResult"></p>
+</div>
+
+<script>
+    function checkAnswer(answer) {
+        const result = document.getElementById('quizResult');
+        if (answer === 'square') {
+            result.textContent = "Correct! A square has all sides equal and all angles 90°.";
+            result.style.color = "green";
+        } else {
+            result.textContent = "Incorrect. Try again!";
+            result.style.color = "red";
+        }
+    }
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/@arcade-v/arcade_v/navigation/games/loadsite.js"></script>
+</body>
+</html>

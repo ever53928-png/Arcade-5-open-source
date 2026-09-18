@@ -1,0 +1,3418 @@
+[
+    {
+        "title": "Request a Feature",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/apps/request.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/apps/request.html",
+        "category": [
+            "Uncategorized"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "2 Player Battle",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/2_player_battle.svg",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/2_player_battle.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Multi Player"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "2048",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/2048.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/2048.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Puzzle",
+            "Mobile"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "2Doom",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/2doom.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/2doom/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Shooter"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "A Koopa’s Revenge",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/a_koopas_revenge.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/a_koopas_revenge/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "A Koopa’s Revenge 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/a_koopas_revenge_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/a_koopas_revenge_2/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "A Plumber For All Seasons",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/aplummerforallseasons.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/a_plummer_for_all_seasons/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Achievement Unlocked 1",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/achievement_unlocked_1.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/achievement_unlocked_1/index.html",
+        "category": [
+            "2D",
+            "New",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Achievement Unlocked 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/achievement_unlocked_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/achievement_unlocked_2/index.html",
+        "category": [
+            "2D",
+            "New",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Achievement Unlocked 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/achievement_unlocked_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/achievement_unlocked_3/index.html",
+        "category": [
+            "2D",
+            "New",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Age of War",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/age_of_war.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/age_of_war/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Age of War 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/age_of_war_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/age_of_war_2/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Alien Hominid",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/alien_hominid.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/ailen_hominid/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Shooter",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Among Us",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/among_us.webp",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/among_us.html",
+        "category": [
+            "2D",
+            "Multi Player"
+        ]
+    },
+    {
+        "title": "Angry Birds",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/angry_birds.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/angry_birds/index.html",
+        "category": [
+            "2D",
+            "Mobile",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Animdustry",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/animdustry.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/animdustry.html",
+        "category": [
+            "2D",
+            "Rhythm",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Appel",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/appel.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/appel.html",
+        "category": [
+            "2D",
+            "Multi Player",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Arena",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/arena.svg",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/arena.html",
+        "category": [
+            "2D",
+            "Multi Player",
+            "Platformer",
+            "Shooter"
+        ]
+    },
+    {
+        "title": "Arrow Gaem",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/arrow_gaem.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/arrow_gaem.html",
+        "category": [
+            "2D",
+            "Rhythm"
+        ]
+    },
+    {
+        "title": "Asteroids",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/asteroids.webp",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/asteroids.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Shooter"
+        ]
+    },
+    {
+        "title": "Awesome Tanks",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/awesome_tanks.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/awesome_tanks/index.html",
+        "category": [
+            "2D",
+            "Shooter",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Awesome Tanks 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/awesome_tanks_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/awesome_tanks_2/index.html",
+        "category": [
+            "2D",
+            "Shooter",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Bad Piggies",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/bad_piggies.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/bad_piggies/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Puzzle",
+            "Mobile",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Baldi’s Basics",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/baldi.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/baldi/index.html",
+        "category": [
+            "3D",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Basket Bros",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/basketbros.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/basket_bros.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Sports"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Basketball Legends",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/basketball_legends.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/basketball_legends/index.html",
+        "category": [
+            "2D",
+            "Sports",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Battle Mage",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/battle_mage.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/battlemage.html",
+        "category": [
+            "2D",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Bendy & The Ink Machine",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/bendy.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/bendy/index.html",
+        "category": [
+            "3D",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Big Ice Tower Tiny Square",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/big_ice_tower_tiny_square.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/big_ice_tower_tiny_square/index.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Big Tower Tiny Square 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/big_tower_tiny_square_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/big_tower_tiny_square_2/index.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Bitlife",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/bitlife.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/bitlife/index.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Mobile"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Block Blast",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/blockblast.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/block_blast.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Puzzle",
+            "Mobile"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Bloons TD 1",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/bloons_td_1.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/bloons_td_1/index.html",
+        "category": [
+            "2D",
+            "Tower Defence",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Bloons TD 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/bloons_td_2.webp",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/bloons_td_2/index.html",
+        "category": [
+            "2D",
+            "Tower Defence",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Bloons TD 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/bloons_td_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/bloons_td_3/index.html",
+        "category": [
+            "2D",
+            "Tower Defence",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Bloons TD 4",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/bloons_td_4.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/bloons_td_4/index.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Tower Defence",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Bloxorz",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/bloxorz.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/bloxorz/index.html",
+        "category": [
+            "3D",
+            "Puzzle",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Buckshot Roulette",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/buckshot_roulette.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/buckshot_roulette/index.html",
+        "category": [
+            "3D",
+            "Puzzle",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Burgertime",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/burgertime.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/burgertime/index.html",
+        "category": [
+            "2D",
+            "New",
+            "Retro",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Burrito Bison",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/burrito_bison.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/burrito_bison/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Burrito Bison Revenge",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/burrito_bison_revenge.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/burrito_bison_revenge/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Cactus Mccoy",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/cactus_mcoy.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/cactus_mccoy/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Cactus Mccoy 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/cactus_mccoy_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/cactus_mccoy_2/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Candy Clicker",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/candy_clicker.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/candy_clicker.html",
+        "category": [
+            "2D",
+            "Idle"
+        ]
+    },
+    {
+        "title": "Candy Crush",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/candy_crush.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/candy_crush.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Mobile"
+        ]
+    },
+    {
+        "title": "Candy Grabber",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/candy_grabber.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/candy_grabber.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Carving Jack-O-Lanterns",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/carving_jack_o_lanterns.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/carving_jack_o_lanterns.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Castlevania",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/castlevania_1.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/castlevania/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Castlevania 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/castlevania_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/castlevania_2/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Castlevania 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/castlevania_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/castlevania_3/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Castlevania 64",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/castlevania_64.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/castlevania_64/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Castlevania: Aria of Sorrow",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/castlevania_sorrow.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/castlevania_sorrow/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Castlevania: Circle of the Moon",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/castlevania_moon.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/castlevania_moon/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Centipede",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/Centipede.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/centipede.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Shooter"
+        ]
+    },
+    {
+        "title": "Chess",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/chess.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/chess.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Chessmo",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/chessmo.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/chessmo.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Connect 4",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/connect_4.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/connect_4.html",
+        "category": [
+            "2D",
+            "Multi Player",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Cookie Clicker",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/cookieclicker.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/cookie_clicker.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Idle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Crossy Road",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/crossy_road.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/crossy_road/index.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "CUBES",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/CUBES.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/CUBES.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Cut The Rope",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/cut_the_rope.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/cut_the_rope.html",
+        "category": [
+            "2D",
+            "Mobile",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Cyber Switch",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/cyber_switch.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/cyber_switch.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Deadtree Defender",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/dead_tree_defender.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/dead_tree_defender/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Tower Defence"
+        ]
+    },
+    {
+        "title": "Defender",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/defender.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/defender.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer",
+            "Shooter"
+        ]
+    },
+    {
+        "title": "Deltarune",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/deltarune.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/gamemaker/deltarune/index.html",
+        "category": [
+            "2D",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Deltatraveler",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/deltatraveler.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity@main/deltatraveler/index.html",
+        "category": [
+            "2D",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Dig Dug",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/dig_dug.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/dig_dug.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Dino Game",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/dino_game.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/dino_game.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Donkey Kong",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/donkey_kong.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/donkey_kong.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Doodle God",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/doodle_god.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/doodle_god/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Doodle God 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/doodle_god_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/doodle_god_2/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Doom",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/doom.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/doom/index.html",
+        "category": [
+            "3D",
+            "Retro",
+            "Shooter"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Doom 64",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/doom_64.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/doom_64/index.html",
+        "category": [
+            "3D",
+            "Retro",
+            "Shooter"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Drift Boss",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/driftboss.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/drift_boss/index.html",
+        "category": [
+            "Popular",
+            "3D",
+            "One Button"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Drive Mad",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/drive_mad.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/drive_mad/index.html",
+        "category": [
+            "Popular",
+            "3D",
+            "One Button"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Duck Hunt",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/duck_hunt.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/duck_hunt.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Shooter"
+        ]
+    },
+    {
+        "title": "Duck Life 1",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/duck_life_1.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/duck_life_1/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Duck Life 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/duck_life_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/duck_life_2/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Duck Life 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/duck_life_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/duck_life_3/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Duck Life 4",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/duck_life_4.avif",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/duck_life_4/index.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Duck Life Treasure Hunt",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/duck_life_treasure_hunt.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/duck_life_treasure_hunt/index.html",
+        "category": [
+            "Platformer",
+            "2D",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Dune",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/dune.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/dune.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Dungeon Dash",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/dungeon_dash.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/dungeon_dash.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "DUNGEONS",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/dungeons.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/DUNGEONS.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Dunk Shot",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/dunk_shot.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/dunk_shot.html",
+        "category": [
+            "2D",
+            "Sports",
+            "Mobile"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "E.T",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/e_t.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/e_t/index.html",
+        "category": [
+            "2D",
+            "Retro"
+        ]
+    },
+    {
+        "title": "Earthbound",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/earthbound.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/earthbound/index.html",
+        "category": [
+            "2D",
+            "Retro"
+        ]
+    },
+    {
+        "title": "EarthBound Beginnings",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/earthbound_beginnings.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/earthbound_beginnings/index.html",
+        "category": [
+            "2D",
+            "Retro"
+        ]
+    },
+    {
+        "title": "Eat The Level",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/eat_the_level.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/eat_the_level.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Ecco The Dolphin",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/ecco_the_dolphin.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/ecco_the_dolphin/index.html",
+        "category": [
+            "2D",
+            "Horror",
+            "Platformer",
+            "Retro"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Elemental Ultra",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/elementalultra.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/elementalultra.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Escape Road",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/escape_road.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/escape_road/index.html",
+        "category": [
+            "3D"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Escape Road 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/escape_road_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/escape_road_2.html",
+        "category": [
+            "Popular",
+            "3D"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "F Zero",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/f_zero.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/f_zero/index.html",
+        "category": [
+            "2D",
+            "Retro"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fallout",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fallout.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/fallout.html",
+        "category": [
+            "New",
+            "RPG"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fancy Pants Adventure",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fancy_pants.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/fancy_pants_adventure_1/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fill",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fill.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/fill_1.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fill 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fill_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/fill_2.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fill Infinite",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fill_infinite.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/fill_infinite.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fireboy And Water Girl 1",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fireboy_and_watergirl_1.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/fire_boy_and_water_girl_1/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Puzzle",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fireboy And Water Girl 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fireboy_and_watergirl_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/fire_boy_and_water_girl_2/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Puzzle",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fish Run 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fish_run_2.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/fish_run_2.html",
+        "category": [
+            "2D",
+            "One Button"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Flappy Bird",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/flappy-bird.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/flappybird.html",
+        "category": [
+            "Popular",
+            "2D",
+            "One Button",
+            "Mobile"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fnac 1",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fnac_1.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/clickteam/c1/index.html",
+        "category": [
+            "2D",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fnac 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fnac_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/clickteam/c2/index.html",
+        "category": [
+            "2D",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fnaf 1",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fnaf_1.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/clickteam/f1/index.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fnaf 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fnaf_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/clickteam/f2/index.html",
+        "category": [
+            "2D",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fnaf 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fnaf_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/clickteam/f3/index.html",
+        "category": [
+            "2D",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fnaf 4",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fnaf_4.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/clickteam/f4/index.html",
+        "category": [
+            "2D",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fnaf 4 Halloween",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fnaf_4_halloween.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/clickteam/f4-halloween/index.html",
+        "category": [
+            "2D",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fnaf 5",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fnaf_5.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/clickteam/f5/index.html",
+        "category": [
+            "2D",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fnaf 6",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fnaf_6.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/clickteam/f6/index.html",
+        "category": [
+            "2D",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fnaf Ultimate Custom night",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fnaf_ucn.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/clickteam/fucn/index.html",
+        "category": [
+            "2D",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fnaf World",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fnaf_world.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/clickteam/fw/index.html",
+        "category": [
+            "2D",
+            "RPG"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Friday Night Funkin",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/FNF.png",
+        "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clfridaynightfunkin.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Rhythm"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Friday Night Funkin B-Sides",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/FNF_b_sides.png",
+        "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clfnfbside.html",
+        "category": [
+            "2D",
+            "Rhythm"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Friday Night Funkin Hit Single Real",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/FNF_hit_single.png",
+        "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clhitsinglereal.html",
+        "category": [
+            "2D",
+            "Rhythm"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Friday Night Funkin Indie Cross",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/FNF_indie_cross.png",
+        "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clfnfindiecross.html",
+        "category": [
+            "2D",
+            "Rhythm"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Friday Night Funkin Neo",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/FNF_neo.png",
+        "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clfnfneo.html",
+        "category": [
+            "2D",
+            "Rhythm"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Friday Night Funkin Mid-Fight Masses",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/FNF_mid_fight_masses.png",
+        "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clfnfmidfight.html",
+        "category": [
+            "2D",
+            "Rhythm"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Friday Night Funkin Soft",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/FNF_soft.png",
+        "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clfnfsoft.html",
+        "category": [
+            "2D",
+            "Rhythm"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Friday Night Funkin vs. Hatsune Miku",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/FNF_v_miku.png",
+        "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clfnfmiku.html",
+        "category": [
+            "2D",
+            "Rhythm"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Friday Night Funkin vs. Hex",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/FNF_v_hex.png",
+        "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clfnfhex.html",
+        "category": [
+            "2D",
+            "Rhythm"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Friday Night Funkin Vs. Sonic.Exe",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/FNF_sonicexe.png",
+        "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clfnfsonicexe.html",
+        "category": [
+            "2D",
+            "Rhythm"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Friday Night Funkin vs. Tricky",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/FNF_v_tricky.png",
+        "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clfnftricky.html",
+        "category": [
+            "2D",
+            "Rhythm"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Friday Night Funkin vs. Whitty",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/FNF_v_whitty.png",
+        "url": "https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/clfnfwhitty.html",
+        "category": [
+            "2D",
+            "Rhythm"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Frogger",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/frogger.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/frogger.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Frozen Tower",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/frozen_tower.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/frozen_tower.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Fruit Ninja",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/fruitninja.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/fruitninja.html",
+        "category": [
+            "3D",
+            "One Button",
+            "Mobile"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Galaga",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/galaga.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/galaga.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Shooter"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Geometry Dash",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/geometry_dash.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/geometry_dash.html",
+        "category": [
+            "2D",
+            "Rhythm",
+            "Mobile",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Geometry Wave",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/geometry_wave.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/geometry_wave.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Getaway Shootout",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/getaway_shootout.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/getaway_shootout/index.html",
+        "category": [
+            "2D",
+            "Multiplayer",
+            "Shooter",
+            "Popular"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Getting Over It",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/getting_over_it.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/getting_over_it.html",
+        "category": [
+            "2D",
+            "Multi Player",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Ghosts And Goblins",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/ghosts_and_goblins.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/ghosts_and_goblins/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Ghouls And Ghosts",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/ghouls_and_ghosts.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/ghouls_and_ghosts/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Golf Islands",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/golf_island.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/golf_islands.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Sports"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Gotta Go Fax",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/gotta_go_fax.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/gotta_go_fax.html",
+        "category": [
+            "3D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Granny",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/granny.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/granny_1/index.html",
+        "category": [
+            "3D",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Granny 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/granny_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/granny_3/index.html",
+        "category": [
+            "3D",
+            "Horror"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Grapple pig",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/grapple_pig.svg",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/grapple_pig.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Gyruss",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/gyruss.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/gyruss.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Shooter"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Halloween Clicker",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/halloween_clicker.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/halloween_clicker.html",
+        "category": [
+            "2D",
+            "Idle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Happy Wheels",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/happy_wheels.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/happy_wheels/index.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Platformer",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "HEX",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/hex.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/hex.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "House Of Hazards",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/house-of-hazards.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/house_of_hazards/index.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Multi Player",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Idle Breakout",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/idle-breakout.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/idle_breakout/index.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Idle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Impossible Ball Game 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/Impossible_Ball_Game_3.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/Impossible_Ball_Game_3.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Iron Snout",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/iron_snout.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/iron_snout/index.html",
+        "category": [
+            "2D"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Jacksmith",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/jack_smith.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/jack_smith/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Jetpack Fox",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/jetpack_fox.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/jetpack_fox.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Jetpack Joyride",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/jetpack_joyride.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/jetpack_joyride/index.html",
+        "category": [
+            "2D",
+            "Mobile",
+            "One Button",
+            "Popular"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Joust",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/joust.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/joust.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Kaboom Cavern",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/kaboom_cavern.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/kaboom_cavern.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Kirby 64",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/kirby_64.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/kirby_64/index.html",
+        "category": [
+            "3D",
+            "Horror",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Learn To fly",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/learn_to_fly.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/learn_to_fly/index.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Learn To fly 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/learn_to_fly_2.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/learn_to_fly_2/index.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Learn To fly 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/learn_to_fly_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/learn_to_fly_3/index.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Learn To fly Idle",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/learn_to_fly_idle.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/learn_to_fly_idle/index.html",
+        "category": [
+            "2D",
+            "Idle",
+            "Puzzle",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Lemon Maze",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/lemon_maze.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/lemon_maze.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Lemonoids Halloween",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/lemonoids_halloween.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/lemonoids_halloween.html",
+        "category": [
+            "2D",
+            "Shooter"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Lemonoids",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/lemonoids.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/lemonoids.html",
+        "category": [
+            "2D",
+            "Shooter"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Magic Cat Academy",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/magic_cat_academy.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/magic_cat_academy.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Mallard Madness",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/mallard_madness.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/mallard_madness_1.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Mallard Madness 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/mallard_madness_2.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/mallard_madness_2.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Mario Bros Classic",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/mario_bros_classic.webp",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/mario_bros.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Metal Sonic Hyperdrive",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/metal_sonic_hyperdrive.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/metal_sonic_hyperdrive/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Metroid Fusion",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/metroid_fusion.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/metroid_fusion/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Shooter",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Metroid Zero Mission",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/metroid_zero_mission.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/metroid_zero_mission/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Shooter",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Minecraft 1.8",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/Minecraft.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/minecraft/index.html",
+        "category": [
+            "Popular",
+            "3D",
+            "Multi Player"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Minecraft 1.12",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/Minecraft.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/javascript/refs/heads/main/minecraft1.12.html",
+        "category": [
+            "Popular",
+            "3D",
+            "Multi Player"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Minesweeper",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/minesweeper.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/google_minesweeper.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "MIRRФЯЯIM",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/MIRRФЯЯIM.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/MIRRФЯЯIM.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Monkey Mart",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/monkey_mart.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/monkey_mart/index.html",
+        "category": [
+            "2D",
+            "Popular"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Monster Miners",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/monster_miners.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/monster_miners.html",
+        "category": [
+            "2D"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Mother 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/mother_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/mother_3/index.html",
+        "category": [
+            "2D",
+            "Retro"
+        ]
+    },
+    {
+        "title": "Mother Load",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/mother_load.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/mother_load/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Ms Pac Man",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/ms_pac_man.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/ms_pacman.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "N-gon",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/n_gon.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/n_gon/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Neon switch",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/neon_switch.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/neon_switch_1.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Neon switch 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/neon_switch_2.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/neon_switch_2.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "New Super Mario Bros",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/new_super_mario.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/new_super_mario/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Retro"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Ovo",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/ovo.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/ovo/index.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Pac Man",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pacman.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/pacman.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Pac Xon",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pac_xon.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/pac_xon/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Papa Louie",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa_louie.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/FutureElliotto/arcade-v/flash/papa_louie_1/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa Louie 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa_louie_2.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/FutureElliotto/arcade-v/flash/papa_louie_2/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa Louie 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa_louie_3.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/FutureElliotto/arcade-v/flash/papa_louie_3/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Bakeria",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_bakeria.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_bakeria/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Burgeria",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_burgeria.jfif",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_burgeria/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Cheeseria",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_cheeseria.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_cheeseria/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Cupcakeria",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_cupcakeria.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_cupcakeria/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Donuteria",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_donuteria.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_donuteria/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Freezeria",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_freezeria.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_freezeria/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Hotdogeria",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_hotdogeria.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_hotdogeria/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Pancakeria",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_pancakeria.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_pancakeria/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Pastaria",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_pastaria.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_pastaria/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Pizzeria",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_pizzeria.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_pizzeria/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Scooperia",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_scooperia.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_scooperia/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Sushiria",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_sushiria.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_sushiria/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Taco Mia",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_taco_mia.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_taco_mia/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Papa’s Wingeria",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/papa's_wingeria.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/papa\\'s_wingeria/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Paper Minecraft",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/paper_minecraft.svg",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/paper_minecraft.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Paper.io",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/paper_io.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/paper_io/index.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Multiplayer",
+            "One Button"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Pineapple Pursuit",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pineapple_pursuit.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/pineapple_pursuit.html",
+        "category": [
+            "2D",
+            "Shooter"
+        ]
+    },
+    {
+        "title": "Pineapple Pursuit 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pineapple_pursuit_2.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/pineapple_pursuit_2.html",
+        "category": [
+            "2D",
+            "Shooter"
+        ]
+    },
+    {
+        "title": "Pixel Shooter",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pixelshooter.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/pixel_shooter.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Multi Player",
+            "Shooter",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Plants Vs Zombies",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/PVZ.webp",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/PVZ/index.html",
+        "category": [
+            "2D",
+            "Tower Defence",
+            "Mobile",
+            "Flash"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Pokemon Diamond",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pokemon_diamond.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/pokemon/diamond/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Pokemon Emerald",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pokemon_emerald.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/pokemon/emerald/index.html",
+        "category": [
+            "2D",
+            "Popular",
+            "Retro",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Pokemon Fire Red",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pokemon_fire_red.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/pokemon/fire_red/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Pokemon Leaf Green",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pokemon_leafgreen.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/pokemon/leaf_green/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Pokemon Platinum",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pokemon_platinum.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/pokemon/platinum/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Pokemon Ruby",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pokemon_ruby.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/pokemon/ruby/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Pokemon Sapphire",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pokemon_sapphire.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/pokemon/sapphire/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Pokemon Soul Silver",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pokemon_soul_silver.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/pokemon/soul_silver/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Polar Panic",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/polar_panic.svg",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/polar_panic.html",
+        "category": [
+            "2D"
+        ]
+    },
+    {
+        "title": "Polytrack",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/polytrack.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/poly_track/index.html",
+        "category": [
+            "2D",
+            "Sports"
+        ]
+    },
+    {
+        "title": "Pong",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pong.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/pong.html",
+        "category": [
+            "2D",
+            "Sports",
+            "Retro"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Pop The Lock",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/pop-the-lock.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/pop-the-lock.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Puzzle",
+            "One Button",
+            "Mobile"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Portal Flash",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/portal_flash.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/portal_flash/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Puzzle",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Q*bert",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/qbert.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/qbert.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Retro"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Raft Wars",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/raft_wars.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/raft_wars/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Raft Wars 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/raft_wars_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/raft_wars_2/index.html",
+        "category": [
+            "2D",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Red Ball 4",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/red_ball_4.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/red_ball_4/index.html",
+        "category": [
+            "2D",
+            "Popular",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Retro Bowl",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/retro_bowl.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/retro_bowl/index.html",
+        "category": [
+            "2D",
+            "Sports"
+        ]
+    },
+    {
+        "title": "Retro Bowl College",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/retro_bowl_college.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/retro_bowl_college/index.html",
+        "category": [
+            "2D",
+            "Sports"
+        ]
+    },
+    {
+        "title": "Riddle School",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/riddle_school_1.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/riddle_school_1/index.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Riddle School 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/riddle_school_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/riddle_school_2/index.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Riddle School 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/riddle_school_3.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/riddle_school_3/index.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Riddle School 4",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/riddle_school_4.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/riddle_school_4/index.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Riddle School 5",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/riddle_school_5.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/riddle_school_5/index.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Riddle Transfer 1",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/riddle_transfer_1.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/riddle_transfer_1/index.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Riddle Transfer 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/riddle_transfer_2.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/riddle_transfer_2/index.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Ring Peril",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/ring_peril.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/ring_peril.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Rooftop Snipers",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/rooftop_snipers.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/rooftop_snipers/index.html",
+        "category": [
+            "2D",
+            "Multi Player",
+            "Shooter",
+            "Popular"
+        ]
+    },
+    {
+        "title": "Rotational",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/rotational.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/Rotational.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Rubber Bandit",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/rubber_bandit.svg",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/rubber_bandit.html",
+        "category": [
+            "2D",
+            "Shooter",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Run",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/run.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/run_1/index.html",
+        "category": [
+            "3D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Run 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/run_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/run_2/index.html",
+        "category": [
+            "3D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Run 3 Flash",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/run_3_flash.png",
+        "url": "https://cdn.jsdelivr.net/gh/FutureElliotto/arcade-v/flash/run_3_flash/index.html",
+        "category": [
+            "3D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Run 3 Scratch",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/run_3_scratch.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/run_3_scratch.html",
+        "category": [
+            "3D",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Run 3 Turbowarp",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/run_3_turbowarp.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/run_3_turbowarp.html",
+        "category": [
+            "3D",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Sandtrix",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/sandtrix.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/sandtrix.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Scramble",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/scramble.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/scramble.html",
+        "category": [
+            "2D",
+            "Shooter",
+            "Retro"
+        ]
+    },
+    {
+        "title": "Shape Smasher",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/shapesmasher.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/shapesmasher.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Slender",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/slender.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/slender/index.html",
+        "category": [
+            "3D",
+            "Puzzle",
+            "Horror"
+        ]
+    },
+    {
+        "title": "Slime Smash Ultimate",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/slime_smash.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/slime_smash_ultimate.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Sling Drift",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/sling_drift.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/sling_drift.html",
+        "category": [
+            "2D",
+            "One Button"
+        ]
+    },
+    {
+        "title": "Slope",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/slope.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/slope/index.html",
+        "category": [
+            "Popular",
+            "3D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Snail Bob 1",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/snail_bob_1.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/snail_bob_1/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Snail Bob 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/snail_bob_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/snail_bob_2/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Snail Bob 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/snail_bob_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/snail_bob_3/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Snail Bob 4",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/snail_bob_4.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/snail_bob_4/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Snail Bob 5",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/snail_bob_5.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/snail_bob_5/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Snail Bob 6",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/snail_bob_6.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/snail_bob_6/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Snail Bob 7",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/snail_bob_7.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/snail_bob_7/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Snail Bob 8",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/snail_bob_8.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/snail_bob_8/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Snake",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/snake.avif",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/snake.html",
+        "category": [
+            "2D",
+            "Retro"
+        ]
+    },
+    {
+        "title": "Snow Rider 3D",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/snow_rider_3d.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/snow_rider_3d/index.html",
+        "category": [
+            "3D"
+        ]
+    },
+    {
+        "title": "Sonic 1",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/sonic_1.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/sonic_1/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Retro"
+        ]
+    },
+    {
+        "title": "Sonic 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/sonic_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/sonic_2/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Retro"
+        ]
+    },
+    {
+        "title": "Sonic 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/sonic_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/sonic_3/index.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Retro"
+        ]
+    },
+    {
+        "title": "Space Invaders",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/space-invaders.webp",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/space-invaders/index.html",
+        "category": [
+            "2D",
+            "Retro"
+        ]
+    },
+    {
+        "title": "Space Spam",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/space_spam.svg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/space_spam.html",
+        "category": [
+            "2D",
+            "One Button"
+        ]
+    },
+    {
+        "title": "Spooky Dash",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/spooky_dash.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/spooky_dash.html",
+        "category": [
+            "2D",
+            "Platformer",
+            "Rhythm"
+        ]
+    },
+    {
+        "title": "Sprunki",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/sprunki.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/sprunki.html",
+        "category": [
+            "2D",
+            "Popular",
+            "Rhythm",
+            "Horror"
+        ]
+    },
+    {
+        "title": "Stack",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/stack.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/stack.html",
+        "category": [
+            "3D",
+            "Puzzle",
+            "One Button"
+        ]
+    },
+    {
+        "title": "Star Seeker",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/star_seeker.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/star_seeker.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Starlight",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/starlight.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/starlight.html",
+        "category": [
+            "2D",
+            "New",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Stickman Hook",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/stickmanhook.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/stickman_hook.html",
+        "category": [
+            "2D",
+            "One Button",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Strike force Heroes 1",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/strike_force_heroes.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/strike_force_heroes/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Shooter"
+        ]
+    },
+    {
+        "title": "Strike force Heroes 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/strike_force_heroes_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/strike_force_heroes_2/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Shooter"
+        ]
+    },
+    {
+        "title": "Strike force Heroes 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/strike_force_heroes_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/strike_force_heroes_3/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Shooter"
+        ]
+    },
+    {
+        "title": "Submersible",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/submersible.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/submersible.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Subway Surfers",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/subway_surfer.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity@main/subway_surfers/index.html",
+        "category": [
+            "3D",
+            "Platformer",
+            "Popular"
+        ]
+    },
+    {
+        "title": "Sugar Sugar",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/sugar_sugar.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/sugar_sugar/index.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Flash"
+        ]
+    },
+    {
+        "title": "Suika Game",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/suika_game.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/suika_game.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "One Button"
+        ]
+    },
+    {
+        "title": "Super Castlevania",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/super_castlevania.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/super_castlevania/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Super Liquid Soccer",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/super_liquid_soccer.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/super_liquid_soccer/index.html",
+        "category": [
+            "3D",
+            "Sports"
+        ]
+    },
+    {
+        "title": "Super Mario 63",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/SuperMario63.webp",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/super-mario-63/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Super Mario All Stars",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/marioallstars.webp",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/mario_all_stars/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Super Mario World",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/marioworld.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/super_mario_world/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Super Meat Boy",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/super_meat_boy.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/super_meat_boy/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Super Metroid",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/super_metroid.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/super_metroid/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Shooter",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Super Smash Flash",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/Super_Smash_Flash.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/super_smash_flash/index.html",
+        "category": [
+            "2D",
+            "Multi Platformer",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Terminus",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/terminus.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/terminus.html",
+        "category": [
+            "2D",
+            "Shooter"
+        ]
+    },
+    {
+        "title": "Tetris",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/tetris.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/tetris.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Retro"
+        ]
+    },
+    {
+        "title": "THE ????? LOOP",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/THE_______LOOP.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/THE_______LOOP.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "The Impossible Quiz",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/impossible_quiz.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/the_impossible_quiz/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "The Impossible Quiz 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/impossible_quiz_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/the_impossible_quiz_2/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "The Impossible Quiz book 1",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/impossible_quiz_book_1.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/the_impossible_quiz_book_1/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "The Impossible Quiz book 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/impossible_quiz_book_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/the_impossible_quiz_book_2/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "The Impossible Quiz book 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/impossible_quiz_book_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/the_impossible_quiz_book_3/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "The Impossible Quizmas",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/impossible_quizmas.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/the_impossible_quizmas/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "The Loop",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/the_loop.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/the_loop.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "The Rotation Principle",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/the_rotation_principle.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/the_rotation_principle.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "The Second Loop",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/the_second_loop.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/the_second_loop.html",
+        "category": [
+            "2D",
+            "Puzzle",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "The World's Hardest Game",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/worlds_hardest_game.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/world\\'s_hardest_game/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "The World's Hardest Game 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/worlds_hardest_game_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/world\\'s_hardest_game_2/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "The World's Hardest Game 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/worlds_hardest_game_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/world\\'s_hardest_game_3/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "They Are Coming",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/they_are_coming.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/they_are_coming/index.html",
+        "category": [
+            "2D",
+            "Shooter"
+        ]
+    },
+    {
+        "title": "Tic Tac Toe",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/tic_tac_toe.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/tic_tac_toe.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Toilet Paper Hoarder",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/toilet_paper_hoarder.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/toilet_paper_hoarder.html",
+        "category": [
+            "2D",
+            "Idle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Tomb of The Mask",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/tombofthemask.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/tomb_of_the_mask.html",
+        "category": [
+            "Popular",
+            "2D",
+            "Puzzle",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Tunnel Rush",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/tunnelrush.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity/tunnel_rush/index.html",
+        "category": [
+            "Popular",
+            "3D"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Ultrakill",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/ultrakill.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/unity@main/ultrakill/index.html",
+        "category": [
+            "3D",
+            "Shooter"
+        ]
+    },
+    {
+        "title": "Undertale",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/under_tale.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/gamemaker/undertale/index.html",
+        "category": [
+            "2D",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Undertale Yellow",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/undertale_yellow.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/gamemaker/undertale_yellow/index.html",
+        "category": [
+            "2D",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Unfair Mario",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/unfair_mario.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/unfair_mario/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Uno",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/uno.png",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/uno.html",
+        "category": [
+            "2D",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Vectoid TD 3D",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/vectoid_3d_td.svg",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/vectoid_TD_3D.html",
+        "category": [
+            "3D",
+            "Tower Defence"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Vex 1",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/vex_1.webp",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/vex_1/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Vex 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/vex_2.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/vex_2/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Vex 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/vex_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/vex_3/index.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Vex 5",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/vex_5.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/vex_5/index.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Vex 6",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/vex_6.jpeg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/vex_6/index.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Vex 7",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/vex_7.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/vex_7/index.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Vex 8",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/vex_8.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/vex_8/index.html",
+        "category": [
+            "2D",
+            "Popular",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "WarioWare",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/wario_ware.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/wario_ware/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "WarioWare D.I.Y.",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/wario_ware_DIY.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/emulatorjs@main/wario_ware_DIY/index.html",
+        "category": [
+            "2D",
+            "Retro",
+            "Puzzle"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Wheely",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/wheely.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/wheely_1/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Wheely 2",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/wheely_2.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/wheely_2/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Wheely 3",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/wheely_3.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/wheely_3/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Wheely 4",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/wheely_4.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/wheely_4/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Wheely 5",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/wheely_5.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/wheely_5/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Wheely 6",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/wheely_6.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/wheely_6/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Wheely 7",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/wheely_7.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/wheely_7/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Wheely 8",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/wheely_8.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/wheely_8/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Platformer",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Witching Hour",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/witching_hour.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/turbowarp/witching_hour.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ]
+    },
+    {
+        "title": "Wonderputt",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/Wonderputt.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/wonderputt/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Sports",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Yohoho.io",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/yohoho_io.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/yohoho_io/index.html",
+        "category": [
+            "2D",
+            "Multiplayer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Yume Nikki",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/yume_nikki.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript/yume_nikki/index.html",
+        "category": [
+            "2D",
+            "RPG"
+        ]
+    },
+    {
+        "title": "Zenith",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/zenith.svg",
+        "url": "https://raw.githubusercontent.com/arcade-v/turbowarp/refs/heads/main/zenith.html",
+        "category": [
+            "2D",
+            "Multi Player",
+            "Puzzle"
+        ]
+    },
+    {
+        "title": "Zrist",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/zrist.png",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/javascript@main/zrist.html",
+        "category": [
+            "2D",
+            "Platformer"
+        ],
+        "mode": "A"
+    },
+    {
+        "title": "Zuma",
+        "image": "https://cdn.jsdelivr.net/gh/arcade-v/images/games/zuma.jpg",
+        "url": "https://cdn.jsdelivr.net/gh/arcade-v/flash@main/zuma/index.html",
+        "category": [
+            "2D",
+            "Flash",
+            "Mobile",
+            "Puzzle"
+        ]
+    }
+]

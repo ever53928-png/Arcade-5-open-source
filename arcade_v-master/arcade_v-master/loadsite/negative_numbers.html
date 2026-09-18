@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Negative Numbers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #3b82f6;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    .example-box {
+      background: #e0f2fe;
+      padding: 15px;
+      margin: 10px 0;
+      border-left: 5px solid #3b82f6;
+      border-radius: 5px;
+    }
+    .quiz {
+      background: #fff7ed;
+      padding: 20px;
+      border: 2px solid #fbbf24;
+      border-radius: 8px;
+    }
+    button {
+      background: #3b82f6;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #2563eb;
+    }
+    .result {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Understanding Negative Numbers</h1>
+  </header>
+
+  <section>
+    <h2>What Are Negative Numbers?</h2>
+    <p>Negative numbers are numbers less than zero. They are written with a minus sign (–) in front, such as –1, –5, or –100.</p>
+    
+    <div class="example-box">
+      <strong>Example:</strong> If the temperature is 3°C and it drops by 5 degrees, it becomes –2°C.
+    </div>
+
+    <h2>How to Work with Negative Numbers</h2>
+    <ul>
+      <li>Adding a negative number is the same as subtracting: 5 + (–3) = 2</li>
+      <li>Subtracting a negative number is like adding: 5 – (–3) = 8</li>
+      <li>Multiplying two negatives makes a positive: (–4) × (–2) = 8</li>
+    </ul>
+
+    <h2>Quick Quiz</h2>
+    <div class="quiz">
+      <label for="q1">1. What is (–3) + (–5)?</label><br>
+      <input type="number" id="q1" placeholder="Your answer"><br><br>
+
+      <label for="q2">2. What is (–4) × (–2)?</label><br>
+      <input type="number" id="q2" placeholder="Your answer"><br><br>
+
+      <button onclick="checkQuiz()">Check Answers</button>
+      <div class="result" id="result"></div>
+    </div>
+  </section>
+
+  <script>
+    function checkQuiz() {
+      let score = 0;
+      let q1 = document.getElementById('q1').value;
+      let q2 = document.getElementById('q2').value;
+
+      if (q1 == -8) score++;
+      if (q2 == 8) score++;
+
+      document.getElementById('result').textContent = 
+        'You got ' + score + '/2 correct!';
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@arcade-v/arcade_v/navigation/games/loadsite.js"></script>
+</body>
+</html>

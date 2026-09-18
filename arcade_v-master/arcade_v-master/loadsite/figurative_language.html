@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Figurative Language — Quick Lesson</title>
+  <meta name="description" content="Simple, kid-friendly lesson page explaining common types of figurative language with examples and a small quiz." />
+  <style>
+    :root{--bg:#f8fafc;--card:#ffffff;--accent:#2563eb;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:#111827; margin:0;padding:2rem}
+    .container{max-width:900px;margin:0 auto}
+    header{display:flex;align-items:center;gap:1rem;margin-bottom:1.25rem}
+    header h1{font-size:1.6rem;margin:0}
+    header p{margin:0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+    .card{background:var(--card);padding:1rem;border-radius:12px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+    .type{font-weight:600;color:var(--accent);margin-bottom:.25rem}
+    .example{margin:.5rem 0;padding:.5rem;border-left:3px solid #eef2ff;background:#fbfdff;border-radius:6px}
+    .muted{color:var(--muted);font-size:.95rem}
+    .quiz{display:flex;flex-direction:column;gap:.5rem}
+    button{background:var(--accent);color:white;border:0;padding:.5rem .75rem;border-radius:8px;cursor:pointer}
+    .small{font-size:.9rem}
+    footer{margin-top:1.25rem;text-align:center;color:var(--muted);font-size:.9rem}
+    @media print{body{padding:0}button{display:none}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Figurative Language — Quick Lesson</h1>
+        <p class="muted">Short definitions, examples, and a tiny quiz to check understanding.</p>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="card">
+        <div class="type">Simile</div>
+        <div class="small muted">Compares two things using <strong>like</strong> or <strong>as</strong>.</div>
+        <div class="example"><strong>Example:</strong> She was as brave as a lion.</div>
+        <div class="small">Tip: Look for the words <em>like</em> or <em>as</em>.</div>
+      </section>
+
+      <section class="card">
+        <div class="type">Metaphor</div>
+        <div class="small muted">Says one thing <strong>is</strong> another to show similarity.</div>
+        <div class="example"><strong>Example:</strong> Time is a thief.</div>
+        <div class="small">Tip: No "like" or "as" — it states a direct comparison.</div>
+      </section>
+
+      <section class="card">
+        <div class="type">Personification</div>
+        <div class="small muted">Gives human qualities to non-human things.</div>
+        <div class="example"><strong>Example:</strong> The wind whispered through the trees.</div>
+      </section>
+
+      <section class="card">
+        <div class="type">Hyperbole</div>
+        <div class="small muted">An extreme exaggeration used for effect.</div>
+        <div class="example"><strong>Example:</strong> I'm so hungry I could eat a horse.</div>
+      </section>
+
+      <section class="card">
+        <div class="type">Onomatopoeia</div>
+        <div class="small muted">A word that imitates a sound.</div>
+        <div class="example"><strong>Example:</strong> The bacon sizzled in the pan.</div>
+      </section>
+
+      <section class="card">
+        <div class="type">Alliteration</div>
+        <div class="small muted">Repeating the same beginning sound in nearby words.</div>
+        <div class="example"><strong>Example:</strong> Sammy sells seashells by the seashore.</div>
+      </section>
+
+      <section class="card">
+        <div class="type">Idiom</div>
+        <div class="small muted">A phrase whose meaning isn't obvious from the words.</div>
+        <div class="example"><strong>Example:</strong> It's raining cats and dogs. (means: it's raining heavily)</div>
+      </section>
+    </main>
+
+    <section style="margin-top:1rem" class="card">
+      <h2 style="margin:.25rem 0">Quick Practice</h2>
+      <p class="muted small">Click a sentence to identify which figurative language it uses.</p>
+
+      <div id="sentences" style="display:grid;gap:.5rem;margin-top:.5rem">
+        <button class="small" data-type="simile">1. The night was as black as coal.</button>
+        <button class="small" data-type="metaphor">2. My brother is a walking encyclopedia.</button>
+        <button class="small" data-type="personification">3. The sun smiled down on us.</button>
+        <button class="small" data-type="hyperbole">4. I've told you a million times.</button>
+        <button class="small" data-type="onomatopoeia">5. The door creaked open slowly.</button>
+        <button class="small" data-type="alliteration">6. Peter Piper picked a peck of pickled peppers.</button>
+        <button class="small" data-type="idiom">7. She spilled the beans about the surprise.</button>
+      </div>
+
+      <p id="result" class="muted small" style="margin-top:.75rem">Click a sentence above to check the answer.</p>
+
+      <div style="margin-top:.75rem;display:flex;gap:.5rem;align-items:center">
+        <button id="show-answers">Show all answers</button>
+        <button id="reset" style="background:#ef4444">Reset</button>
+      </div>
+    </section>
+
+    <section style="margin-top:1rem" class="card">
+      <h2 style="margin:.25rem 0">Mini challenge</h2>
+      <p class="muted small">Write one sentence of your own for any type of figurative language. Try to be creative!</p>
+      <textarea id="user-sentence" rows="3" style="width:100%;padding:.5rem;margin-top:.5rem;border-radius:8px;border:1px solid #e6e6e6"></textarea>
+      <div style="display:flex;gap:.5rem;margin-top:.5rem">
+        <button id="save">Save sentence</button>
+        <button id="clear" style="background:#ef4444">Clear</button>
+      </div>
+      <p id="saved" class="muted small" style="margin-top:.5rem">No sentence saved.</p>
+    </section>
+
+    <footer>
+      Tip: Print this page for offline practice (use your browser's Print command).
+    </footer>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script>
+    const answers = {
+      1: 'Simile',
+      2: 'Metaphor',
+      3: 'Personification',
+      4: 'Hyperbole',
+      5: 'Onomatopoeia',
+      6: 'Alliteration',
+      7: 'Idiom'
+    };
+
+    document.querySelectorAll('#sentences button').forEach((btn, idx) => {
+      btn.addEventListener('click', () => {
+        const correct = answers[idx+1];
+        document.getElementById('result').textContent = `Answer: ${correct}`;
+        btn.style.outline = '3px solid rgba(37,99,235,0.12)';
+      });
+    });
+
+    document.getElementById('show-answers').addEventListener('click', () => {
+      document.getElementById('result').innerHTML = Object.keys(answers).map(k => `${k}. ${answers[k]}`).join('<br>');
+    });
+
+    document.getElementById('reset').addEventListener('click', () => {
+      document.getElementById('result').textContent = 'Click a sentence above to check the answer.';
+      document.querySelectorAll('#sentences button').forEach(b => b.style.outline = 'none');
+    });
+
+    const saveBtn = document.getElementById('save');
+    const clearBtn = document.getElementById('clear');
+    const savedP = document.getElementById('saved');
+    saveBtn.addEventListener('click', () => {
+      const t = document.getElementById('user-sentence').value.trim();
+      if(!t) { savedP.textContent = 'Please write a sentence first.'; return }
+      localStorage.setItem('myFigSentence', t);
+      savedP.textContent = 'Saved: ' + t;
+    });
+    clearBtn.addEventListener('click', () => {
+      document.getElementById('user-sentence').value = '';
+      localStorage.removeItem('myFigSentence');
+      savedP.textContent = 'No sentence saved.';
+    });
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/@arcade-v/arcade_v/navigation/games/loadsite.js"></script>
+</body>
+</html>
+
+

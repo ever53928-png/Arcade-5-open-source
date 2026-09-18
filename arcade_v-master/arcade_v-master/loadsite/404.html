@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>This site can’t be reachedo</title>
+
+<!-- Roboto-ish look -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg:#f2f2f4; 
+    --text:#3c4043;
+    --muted:#5f6368;
+    --card:#fff;
+    --accent:#1a73e8;
+    --shadow: 0 6px 18px rgba(60,64,67,0.08);
+  }
+
+  html,body{height:100%}
+  body{
+    margin:0;
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial;
+    background:var(--bg);
+    color:var(--text);
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    padding:64px 20px;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .container{
+    max-width:760px;
+    width:100%;
+  }
+
+  .card{
+    background:transparent;
+    display:flex;
+    gap:34px;
+    align-items:flex-start;
+  }
+
+  /* Left: big sad face */
+  .face {
+    width:160px;
+    text-align:center;
+    margin-top:6px;
+  }
+  .face .emoji{
+    font-size:110px;
+    line-height:1;
+    display:block;
+    filter:grayscale(.25);
+  }
+
+  /* Right: content */
+  .content{
+    flex:1;
+  }
+  h1{
+    margin:0;
+    font-size:28px;
+    font-weight:400;
+  }
+  .site{
+    margin-top:8px;
+    font-size:20px;
+    color:var(--muted);
+  }
+  .desc{
+    margin:16px 0 6px 0;
+    color:var(--muted);
+    font-size:14px;
+  }
+
+  .errorline{
+    background: #fff;
+    border-radius:8px;
+    padding:12px 14px;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    box-shadow: var(--shadow);
+    margin:12px 0 18px 0;
+  }
+  .err-icon{
+    width:44px;
+    height:44px;
+    border-radius:6px;
+    background:linear-gradient(180deg,#f8f9fb,#eef0f3);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:700;
+    color:var(--text);
+    font-size:18px;
+  }
+  .err-text{
+    font-size:13px;
+    color:var(--muted);
+  }
+  .err-code{
+    margin-left:auto;
+    font-family:monospace;
+    font-size:12px;
+    color:#6a6f73;
+  }
+
+  /* Actions */
+  .actions{
+    display:flex;
+    gap:12px;
+    margin-top:8px;
+  }
+  .btn{
+    background:transparent;
+    border:1px solid rgba(60,64,67,0.12);
+    padding:9px 12px;
+    border-radius:6px;
+    font-size:14px;
+    cursor:pointer;
+    box-shadow: none;
+  }
+  .btn.primary{
+    background:var(--accent);
+    color:#fff;
+    border:none;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+  }
+
+  /* Details panel */
+  .details{
+    margin-top:16px;
+    background:var(--card);
+    padding:12px;
+    border-radius:8px;
+    box-shadow: var(--shadow);
+    display:none;
+    color:var(--muted);
+    font-size:13px;
+  }
+  .tips{
+    margin-top:18px;
+    display:grid;
+    gap:8px;
+    font-size:13px;
+    color:var(--muted);
+  }
+  .tips li{margin-left:18px;position:relative}
+  .tips li:before{
+    content: "•";
+    position:absolute;
+    left:-18px;
+    color:#8a8f93;
+  }
+
+  .diagnostics{
+    margin-top:12px;
+    display:flex;
+    gap:8px;
+    align-items:center;
+  }
+  .diag-result{
+    font-size:13px;
+    color:var(--muted);
+  }
+
+  footer{
+    margin-top:28px;
+    font-size:12px;
+    color:#7b8084;
+  }
+
+  /* small screens */
+  @media (max-width:640px){
+    .card{flex-direction:column; gap:18px}
+    .face{width:120px}
+    .emoji{font-size:84px}
+  }
+</style>
+</head>
+<body>
+  <div class="container" role="main" aria-labelledby="title">
+    <div class="card" role="article">
+      <div class="face" aria-hidden="true">
+        <div class="emoji">😕</div>
+      </div>
+
+      <div class="content">
+        <h1 id="title">This site can’t be reached</h1>
+        <div class="site" id="hostname">—</div>
+
+        <p class="desc">The server DNS address could not be found.</p>
+
+        <div class="errorline" aria-live="polite">
+          <div class="err-icon" title="Error">ERR</div>
+          <div class="err-text">Try checking the connection, <strong id="addr-inline">the address</strong>, and your proxy and firewall.</div>
+          <div class="err-code" id="errcode">DNS_PROBE_FINISHED_NXDOMAIN</div>
+        </div>
+
+        <div class="actions" role="group" aria-label="Actions">
+          <button class="btn primary" id="reloadBtn" title="Reload (Ctrl+R)">Reload</button>
+          <button class="btn" id="showDetailsBtn" aria-expanded="false">Details ▾</button>
+          <button class="btn" id="diagnoseBtn">Run network diagnostics</button>
+        </div>
+
+        <div class="details" id="detailsPanel" aria-hidden="true">
+          <strong>Technical Info</strong>
+          <div style="margin-top:8px;">
+            <div><strong>Error:</strong> <span id="technicalErr">DNS_PROBE_FINISHED_NXDOMAIN</span></div>
+            <div style="margin-top:6px;"><strong>Requested host:</strong> <span id="requestedHost">—</span></div>
+            <div style="margin-top:6px;"><strong>Suggested action:</strong> Check the address for typing errors, or try a different DNS server (e.g. 8.8.8.8).</div>
+          </div>
+
+          <ul class="tips" aria-label="Suggestions">
+            <li>Confirm that the domain name is correct.</li>
+            <li>Try turning your network connection off and on.</li>
+            <li>Check your firewall or proxy settings if you use one.</li>
+          </ul>
+
+          <div class="diagnostics" id="diagArea" aria-live="polite">
+            <div class="diag-result" id="diagResult">Network diagnostics haven't been run.</div>
+          </div>
+        </div>
+
+        <footer>
+          <div>If you own this domain, check your DNS settings with your domain registrar.</div>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@arcade-v/arcade_v/navigation/games/loadsite.js"></script>
+</script>
+</body>
+</html>

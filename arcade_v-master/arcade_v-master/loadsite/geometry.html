@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Geometry Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        section {
+            padding: 20px;
+            margin: 15px auto;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        ul li {
+            margin: 8px 0;
+            transition: transform 0.3s, color 0.3s;
+            cursor: pointer;
+        }
+        ul li:hover {
+            transform: scale(1.1);
+            color: #ff5722;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: rotate(10deg) scale(1.05);
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px 5px 5px 0;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #ddd;
+            margin-top: 20px;
+        }
+        .quiz-question {
+            margin: 15px 0;
+        }
+        .result {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Interactive Geometry Quiz</h1>
+</header>
+
+<section>
+    <h2>What is Geometry?</h2>
+    <p>Geometry is a branch of mathematics that studies shapes, sizes, and the properties of space. It includes points, lines, angles, surfaces, and solids.</p>
+</section>
+
+<section>
+    <h2>Types of Shapes</h2>
+    <ul>
+        <li><strong>Circle:</strong> All points equidistant from the center.</li>
+        <li><strong>Triangle:</strong> Three-sided polygon.</li>
+        <li><strong>Square:</strong> Four-sided polygon with equal sides and angles.</li>
+        <li><strong>Rectangle:</strong> Four-sided polygon with opposite sides equal.</li>
+        <li><strong>Polygon:</strong> Closed shape with three or more straight sides.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Examples of Shapes</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Basic_geometric_shapes.svg/600px-Basic_geometric_shapes.svg.png" alt="Geometric Shapes">
+</section>
+
+<section>
+    <h2>Quick Quiz</h2>
+    <div class="quiz-question" data-answer="5">
+        <p>1. How many sides does a pentagon have?</p>
+        <button onclick="selectAnswer(this, '5')">4</button>
+        <button onclick="selectAnswer(this, '5')">5</button>
+        <button onclick="selectAnswer(this, '5')">6</button>
+    </div>
+    <div class="quiz-question" data-answer="Square">
+        <p>2. What shape has all sides equal and all angles 90°?</p>
+        <button onclick="selectAnswer(this, 'Square')">Rectangle</button>
+        <button onclick="selectAnswer(this, 'Square')">Square</button>
+        <button onclick="selectAnswer(this, 'Square')">Triangle</button>
+    </div>
+    <div class="quiz-question" data-answer="Center">
+        <p>3. A circle is defined by points equidistant from what?</p>
+        <button onclick="selectAnswer(this, 'Center')">Center</button>
+        <button onclick="selectAnswer(this, 'Center')">Edge</button>
+        <button onclick="selectAnswer(this, 'Center')">Vertex</button>
+    </div>
+    <button onclick="showResults()">Show Results</button>
+    <div class="result" id="quizResult"></div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Interactive Geometry</p>
+</footer>
+
+<script>
+let userAnswers = {};
+
+function selectAnswer(button, correctAnswer) {
+    const questionDiv = button.closest('.quiz-question');
+    const buttons = questionDiv.querySelectorAll('button');
+    
+    // Reset button colors
+    buttons.forEach(btn => btn.style.backgroundColor = "#4CAF50");
+    
+    // Save user selection
+    userAnswers[questionDiv.querySelector('p').innerText] = button.innerText;
+    
+    // Highlight selection
+    button.style.backgroundColor = "#2196F3";
+}
+
+function showResults() {
+    const questions = document.querySelectorAll('.quiz-question');
+    let score = 0;
+    
+    questions.forEach(q => {
+        const correct = q.getAttribute('data-answer');
+        const user = userAnswers[q.querySelector('p').innerText];
+        if(user === correct) score++;
+    });
+    
+    const total = questions.length;
+    document.getElementById('quizResult').innerText = `You got ${score} out of ${total} correct!`;
+}
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/@arcade-v/arcade_v/navigation/games/loadsite.js"></script>
+</body>
+</html>
