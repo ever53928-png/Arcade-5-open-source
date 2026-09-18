@@ -27,7 +27,7 @@ enableSecretLetterCode(["Z", "M", "G"], openArcadeWindow);
 function openArcadeWindow() {
   const popup = window.open("");
   if (!popup) {
-    window.location.href = "https://cdn.jsdelivr.net/npm/@arcade-v/arcade_v";
+    window.location.href = "https://github.com/ever53928-png/Arcade-5-open-source/tree/main/arcade_v-master/arcade_v-master/navigation";
     return;
   }
 
